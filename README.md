@@ -23,6 +23,7 @@ This is a full-stack web application that provides:
 - Implement **machine learning** to optimize the protein factory algorithm dynamically.
 - Add **dark mode** support for better accessibility.
 - Include **social sharing** features for users to share their progress.
+- Will upgrade the feature of the sharing the related goals to connected social media platforms!
 
 ## Live App
 👉 [View Live App](https://bodybuilding-app.vercel.app)
