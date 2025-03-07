@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏋️ Bodybuilding Advice & Protein Factory Simulator
 
-## Getting Started
+## What I Built
+This is a full-stack web application that provides:
+- **AI-Powered Bodybuilding Advice**: Users can ask GPT-4 for personalized workout and diet plans.
+- **Protein Factory Simulator**: A logic-based game where users optimize protein powder production while managing electricity consumption.
+- **User Authentication**: Secure login using Supabase and Google OAuth.
 
-First, run the development server:
+## Technologies Used
+- **Frontend**: Next.js, React
+- **Backend**: Supabase, OpenAI API
+- **Styling**: CSS Modules, Pastel Color Palette
+- **Deployment**: Vercel
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What I Learned
+- How to integrate **Supabase** for authentication and database management.
+- How to use **OpenAI's GPT-4 API** for generating dynamic content.
+- How to build a responsive and visually appealing UI using **CSS Modules**.
+- How to deploy a full-stack app to **Vercel** and manage environment variables.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What I’d Improve
+- Add a **progress tracker** for users to log their workouts and track muscle growth.
+- Implement **machine learning** to optimize the protein factory algorithm dynamically.
+- Add **dark mode** support for better accessibility.
+- Include **social sharing** features for users to share their progress.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Live App
+👉 [View Live App](https://bodybuilding-app.vercel.app)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## GitHub Repository
+👉 [View GitHub Repo](https://github.com/your-username/bodybuilding-app)
