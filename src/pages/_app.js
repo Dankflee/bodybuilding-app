@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
 import Navbar from '../components/Navbar';
 import '../styles/globals.css';
+import '../styles/Dashboard.css';
+import '../styles/ProteinFactory.css';
 
 function MyApp({ Component, pageProps }) {
   const [user, setUser] = useState(null);
