@@ -3,7 +3,6 @@ import { useRouter } from 'next/router';
 import { supabase } from '../lib/supabase';
 import AIAdvice from '../components/AIAdvice';
 import ProteinFactory from '../components/ProteinFactory';
-import '../styles/Dashboard.css';
 
 export default function Dashboard() {
   const [activeFeature, setActiveFeature] = useState(null);

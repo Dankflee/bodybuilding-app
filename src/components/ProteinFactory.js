@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { calculateProduction } from '../utils/calculations';
-import '../styles/ProteinFactory.css';
 
 export default function ProteinFactory() {
   const [inputs, setInputs] = useState(['', '', '', '', '']);
