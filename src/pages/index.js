@@ -1,7 +1,19 @@
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
+import { supabase } from '../lib/supabase';
 
 export default function Home() {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const fetchUser = async () => {
+      const { data: { user } } = await supabase.auth.getUser();
+      setUser(user);
+    };
+    fetchUser();
+  }, []);
+
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -21,9 +33,15 @@ export default function Home() {
       </section>
 
       <div className={styles.cta}>
-        <Link href="/login">
-          <button>Get Started →</button>
-        </Link>
+        {user ? (
+          <Link href="/dashboard">
+            <button>Access Features →</button>
+          </Link>
+        ) : (
+          <Link href="/login">
+            <button>Get Started →</button>
+          </Link>
+        )}
       </div>
     </div>
   );

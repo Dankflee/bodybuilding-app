@@ -42,9 +42,11 @@ export default function Navbar() {
         <Link href="/">
           <span>Home</span>
         </Link>
-        <Link href="/dashboard">
-          <span>Dashboard</span>
-        </Link>
+        {user && (
+          <Link href="/dashboard">
+            <span>Dashboard</span>
+          </Link>
+        )}
       </div>
 
       <div className="navbar-auth">
